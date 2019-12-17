@@ -25,8 +25,8 @@ public class CalculatorTest {
 
     @Test
     public void Tdivide() {
-        int a = 4;
-        int b = 2;
+        int a = 6;
+        int b = 3;
         Assert.assertEquals(2,divide(a,b));
         System.out.println("Test successful!");
     }
